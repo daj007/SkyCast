@@ -23,86 +23,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "1B91F74E-8F59-426D-ACAB-D5BE00D8090A"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SkyCast/CityService.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
-            landmarkName = "loadCityData(_:completionHandler:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "1B91F74E-8F59-426D-ACAB-D5BE00D8090A - 687fe2385a0acd74"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SkyCast.CityService.loadCityData(_: Swift.Optional&lt;Swift.Array&lt;Swift.String&gt;&gt;, completionHandler: (SkyCast.DataCity) -&gt; ()) -&gt; ()"
-                  moduleName = "SkyCast"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/david/Documents/Development/SkyCast/SkyCast/CityService.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "22"
-                  endingLineNumber = "22"
-                  offsetFromSymbolStart = "176">
-               </Location>
-               <Location
-                  uuid = "1B91F74E-8F59-426D-ACAB-D5BE00D8090A - 7ad274dbe2027a55"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SkyCast.CityService.loadCityData(_: Swift.Array&lt;Swift.String&gt;, completionHandler: (SkyCast.DataCity) -&gt; ()) -&gt; ()"
-                  moduleName = "SkyCast"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/david/Documents/Development/SkyCast/SkyCast/CityService.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "22"
-                  endingLineNumber = "22"
-                  offsetFromSymbolStart = "172">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "F9C7AE42-27BC-42CB-975B-5861F5B49833"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SkyCast/CityService.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
-            landmarkName = "makeDataRequestFor()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "345C49E8-3694-4AAF-9024-0793674E2AD6"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SkyCast/CityService.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
-            landmarkName = "makeDataRequestFor()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "6DB91152-E929-4C84-8F13-8264CD90ABFC"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -144,6 +64,54 @@
                   startingLineNumber = "45"
                   endingLineNumber = "45"
                   offsetFromSymbolStart = "380">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EEAB0682-8CF5-4358-BFBB-FFF44A82E477"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SkyCast/CityService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "makeDataRequestFor()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EEAB0682-8CF5-4358-BFBB-FFF44A82E477 - 90a2f1493798b97a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SkyCast.CityService.makeDataRequestFor() -&gt; ()"
+                  moduleName = "SkyCast"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/david/Documents/Development/SkyCast/SkyCast/CityService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "2408">
+               </Location>
+               <Location
+                  uuid = "EEAB0682-8CF5-4358-BFBB-FFF44A82E477 - e1dc0bf508bdcba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SkyCast.CityService.makeDataRequestFor() -&gt; ()"
+                  moduleName = "SkyCast"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/david/Documents/Development/SkyCast/SkyCast/CityService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "132">
                </Location>
             </Locations>
          </BreakpointContent>

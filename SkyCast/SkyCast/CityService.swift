@@ -12,6 +12,7 @@ public final class CityService: NSObject {
     private var completionHandler: ((DataCity) -> Void)?
     private var city: String?
     private var state: String?
+    private var country: String?
     
     public override init() {
         super.init()
@@ -24,7 +25,10 @@ public final class CityService: NSObject {
         } else {
             self.city = location[0]
             if location.count > 1 {
+                self.country = location[1]
+            } else if location.count > 2 {
                 self.state = location[1]
+                self.country = location[2]
             }
             self.makeDataRequestFor()
         }
@@ -35,6 +39,8 @@ public final class CityService: NSObject {
         if let city = self.city {
             if let state = self.state {
                 urlString = "https://api.openweathermap.org/geo/1.0/direct?q=\(city),\(state),US&limit=1&appid=\(API_KEY)"
+            } else if let country = self.city{
+                urlString = "https://api.openweathermap.org/geo/1.0/direct?q=\(city),\(country)&limit=1&appid=\(API_KEY)"
             } else {
                 urlString = "https://api.openweathermap.org/geo/1.0/direct?q=\(city)&limit=1&appid=\(API_KEY)"
             }
